@@ -11,14 +11,21 @@ contract contractAddressCalculator {
       address public firstDeployment;
     
   function addressForNonce(uint8 nonce) constant returns (address) {
-    if (nonce > 127) throw;
+    if (nonce <= 127)
     return address(sha3(0xd6, 0x94, address(this), nonce));
+	
+	else if (nonce >= 128 && nonce <= 257)
+	return address(sha3(0xd7, 0x94, address(this), 0x81, nonce));
+	
+	else throw;
+	
   }
 
   function contractAddressCalculator() payable {
     firstDeployment = addressForNonce(uint8(1));
     bool b = firstDeployment.send(msg.value);
   }
-
+  
+  
 
 }
