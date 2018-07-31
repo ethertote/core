@@ -1,16 +1,15 @@
 # Ethertote
 
-PLEASE NOTE THIS README IS CURRENTLY ACTING AS A TEMPLATE PLACEHOLDER AND WILL SHORTLY BE FULLY UPDATED
+Ethertote is a skill-based trading DApp that harnesses the power of Ethereum smart contracts to allow players to trade on the performance of leading crypto-currencies over a fixed period.
 
-Ethereum Tote betting on leading cryptocurrencies
 
 ## Getting Started
 
-visit our dapp at http://www.ethertote.com/dapp for more details
+visit our website at https://www.ethertote.com/ for further details
 
 ### Prerequisites
 
-You will require the Metamask browser extension, or the Mist browser, or simply send ether to the correct crypto contract.
+You will require a web browser with the Metamask browser extension installed for web3 injection. Alternatively you can use a web3 "friendly" mobile app such as Cipher, Trust, or Toshi.
 
 
 ## Built With
@@ -23,19 +22,7 @@ You will require the Metamask browser extension, or the Mist browser, or simply 
 * [React.js](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 * [Node.js](http://www.oraclize.it/) - Provable Ethereum Oracle
 * [NEXT.js](https://maven.apache.org/) - Dependency Management
-* [CCXT](https://rometools.github.io/rome/) - awiting update
 
 
-## Authors
-
-* **Ethertote Dev Team** - *Initial work* - [Ethertote](http://www.ethertote.com)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-
-## Acknowledgments
-
-* CoinMarketCap
-* Ethereum
 
 
